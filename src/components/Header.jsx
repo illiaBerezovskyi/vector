@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 
 const links = [
-  { href: '#services', label: 'Services' },
-  { href: '#process', label: 'Process' },
-  { href: '#calculator', label: 'Calculator' },
-  { href: '#contacts', label: 'Contacts' },
+  { href: '#services', label: 'Послуги' },
+  { href: '#process', label: 'Процес' },
+  { href: '#calculator', label: 'Калькулятор' },
+  { href: '#contacts', label: 'Контакти' },
 ]
 
 export default function Header() {
@@ -31,11 +31,11 @@ export default function Header() {
           ))}
         </nav>
         <a href="#contacts" className="btn btn--primary header__cta">
-          Work with us
+          Замовити послугу
         </a>
         <button
           className="burger"
-          aria-label="Menu"
+          aria-label="Меню"
           onClick={() => setOpen(!open)}
         >
           <span /><span /><span />

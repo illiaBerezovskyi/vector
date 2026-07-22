@@ -2,93 +2,93 @@ import { useEffect } from 'react'
 
 const sections = [
   {
-    title: '1. General Provisions',
+    title: '1. Загальні положення',
     body: [
-      'This document is an official public offer (hereinafter — the "Offer") by [FULL LEGAL NAME / SOLE PROPRIETOR] (hereinafter — the "Contractor") to enter into a service agreement on the terms set out below.',
-      'Payment of an invoice issued by the Contractor constitutes full and unconditional acceptance of this Offer. No signed paper copy is required for the agreement to take effect.',
+      'Цей документ є офіційною публічною офертою [ПОВНЕ ІМ’Я / ФОП] (далі — «Виконавець») укласти договір про надання послуг на умовах, викладених нижче.',
+      'Оплата рахунку, виставленого Виконавцем, означає повне й безумовне прийняття цієї оферти. Підписання паперового примірника договору не є обов’язковим.',
     ],
   },
   {
-    title: '2. Subject of the Agreement',
+    title: '2. Предмет договору',
     body: [
-      'The Contractor provides marketing and consulting services, including: CRM audit and setup, advertising campaign structure and management, analytics and reporting setup, AI automation scenarios, and related consulting.',
-      'The specific scope, format, timeline and price of services are agreed individually for each order via the communication channels listed in Section 13.',
+      'Виконавець надає маркетингові та консультаційні послуги, зокрема: аудит і налаштування CRM, структурування та ведення рекламних кампаній, налаштування аналітики та звітності, сценарії AI-автоматизації та супутні консультації.',
+      'Конкретний обсяг, формат, строки та вартість послуг узгоджуються індивідуально для кожного замовлення через канали зв’язку, зазначені в розділі 13.',
     ],
   },
   {
-    title: '3. Placing an Order',
+    title: '3. Оформлення замовлення',
     body: [
-      'The Client contacts the Contractor via Telegram, phone or email. The parties agree on the scope, timeline and price. The Contractor sends payment details. The order is considered confirmed once the payment is received.',
+      'Клієнт звертається до Виконавця через Telegram, телефон або email. Сторони узгоджують обсяг, строки та вартість. Виконавець надсилає реквізити для оплати. Замовлення вважається підтвердженим із моменту надходження оплати.',
     ],
   },
   {
-    title: '4. Pricing and Payment',
+    title: '4. Вартість і оплата',
     body: [
-      'The price depends on the scope and complexity of each order and is confirmed before payment. Unless otherwise agreed in writing, services are provided on the basis of 100% prepayment by bank transfer.',
-      'All prices are quoted in US dollars unless stated otherwise. The Client covers any transfer fees charged by their bank.',
+      'Вартість залежить від обсягу та складності замовлення й підтверджується перед оплатою. Якщо письмово не узгоджено інше, послуги надаються на умовах 100% передоплати банківським переказом.',
+      'Усі ціни вказані в доларах США, якщо не зазначено інше. Комісії банку Клієнта сплачує Клієнт.',
     ],
   },
   {
-    title: '5. Service Delivery',
+    title: '5. Надання послуг',
     body: [
-      'Services are delivered remotely: by email, in messengers, via cloud storage or directly in the Client’s CRM and advertising accounts.',
-      'Work begins after full payment and after the Client provides the required materials and access. The Client has five (5) business days after delivery to submit written objections; in the absence of objections the services are deemed accepted in full.',
+      'Послуги надаються дистанційно: електронною поштою, у месенджерах, через хмарні сховища або безпосередньо в CRM та рекламних кабінетах Клієнта.',
+      'Роботи розпочинаються після повної оплати та надання Клієнтом необхідних матеріалів і доступів. Клієнт має п’ять (5) робочих днів після передачі результатів для письмових зауважень; за їх відсутності послуги вважаються прийнятими в повному обсязі.',
     ],
   },
   {
-    title: '6. Rights and Obligations of the Parties',
+    title: '6. Права та обов’язки сторін',
     body: [
-      'The Contractor undertakes to deliver the services as agreed and to keep the Client’s commercial information confidential.',
-      'The Client undertakes to provide accurate information and required access in time, to pay for the services as agreed, and to make independent business decisions based on the deliverables.',
+      'Виконавець зобов’язується надати послуги в узгодженому обсязі та зберігати конфіденційність комерційної інформації Клієнта.',
+      'Клієнт зобов’язується своєчасно надавати достовірну інформацію та необхідні доступи, оплачувати послуги згідно з домовленостями та самостійно ухвалювати бізнес-рішення на основі отриманих результатів.',
     ],
   },
   {
-    title: '7. Intellectual Property',
+    title: '7. Інтелектуальна власність',
     body: [
-      'Rights to custom materials created for the Client transfer to the Client after full payment, within the agreed scope. Templates, methodologies and third-party tools remain the property of their respective owners and are governed by their own licenses.',
+      'Права на індивідуальні матеріали, створені для Клієнта, переходять до Клієнта після повної оплати в узгоджених межах. Шаблони, методології та інструменти третіх сторін залишаються власністю їхніх правовласників і регулюються відповідними ліцензіями.',
     ],
   },
   {
-    title: '8. Liability',
+    title: '8. Відповідальність',
     body: [
-      'The Contractor does not guarantee specific financial results (revenue, number of leads or deals), as these depend on factors outside the Contractor’s control, including the Client’s product, pricing and market conditions.',
-      'The Contractor is not responsible for the availability or policy changes of third-party services (advertising platforms, CRM systems, messengers).',
-      'The total aggregate liability of the Contractor under this Agreement shall not exceed the amount actually paid by the Client for the relevant order.',
+      'Виконавець не гарантує конкретних фінансових результатів (виручки, кількості лідів чи угод), оскільки вони залежать від факторів поза контролем Виконавця, зокрема продукту, цін і ринкової ситуації Клієнта.',
+      'Виконавець не відповідає за доступність і зміни політик сторонніх сервісів (рекламних платформ, CRM-систем, месенджерів).',
+      'Сукупна відповідальність Виконавця за цим договором не перевищує суми, фактично сплаченої Клієнтом за відповідне замовлення.',
     ],
   },
   {
-    title: '9. Refunds',
+    title: '9. Повернення коштів',
     body: [
-      'Refund requests are reviewed individually, taking into account the amount of work actually performed by the moment of the request. The refundable amount is reduced proportionally to the completed work.',
+      'Запити на повернення розглядаються індивідуально з урахуванням обсягу фактично виконаних робіт на момент звернення. Сума повернення зменшується пропорційно виконаній роботі.',
     ],
   },
   {
-    title: '10. Personal Data',
+    title: '10. Персональні дані',
     body: [
-      'The Client’s personal data is processed solely for the purpose of executing this Agreement and complying with applicable law, and is not shared with third parties except where required for service delivery or by law.',
+      'Персональні дані Клієнта обробляються виключно для виконання цього договору та дотримання вимог законодавства й не передаються третім особам, крім випадків, необхідних для надання послуг або передбачених законом.',
     ],
   },
   {
-    title: '11. Force Majeure and Disputes',
+    title: '11. Форс-мажор і вирішення спорів',
     body: [
-      'The parties are released from liability for non-performance caused by circumstances beyond their reasonable control (force majeure) for the duration of such circumstances.',
-      'Disputes are resolved through negotiation; failing that, in accordance with the law of the Contractor’s country of registration.',
+      'Сторони звільняються від відповідальності за невиконання зобов’язань унаслідок обставин непереборної сили на час дії таких обставин.',
+      'Спори вирішуються шляхом переговорів, а в разі недосягнення згоди — відповідно до законодавства країни реєстрації Виконавця.',
     ],
   },
   {
-    title: '12. Term and Amendments',
+    title: '12. Строк дії та зміни',
     body: [
-      'This Offer is effective from the moment of publication on this website and remains valid until withdrawn by the Contractor. The Contractor may amend the Offer at any time; amendments do not apply to orders already paid.',
+      'Оферта чинна з моменту публікації на цьому сайті й діє до її відкликання Виконавцем. Виконавець може змінювати оферту в будь-який час; зміни не поширюються на вже оплачені замовлення.',
     ],
   },
   {
-    title: '13. Contractor Details',
+    title: '13. Реквізити Виконавця',
     body: [
-      '[FULL LEGAL NAME / SOLE PROPRIETOR]',
-      'Registration number: [REGISTRATION / TAX ID]',
-      'Registered address: [ADDRESS]',
-      'Bank details: [BANK NAME, IBAN / ACCOUNT NUMBER]',
-      'Phone: +1 (555) 000-0000 · Email: hello@vektor.agency · Telegram: @vektor_agency',
+      '[ПОВНЕ ІМ’Я / ФОП]',
+      'РНОКПП / ЄДРПОУ: [НОМЕР]',
+      'Адреса реєстрації: [АДРЕСА]',
+      'Банківські реквізити: [БАНК, IBAN]',
+      'Телефон: +380 (00) 000-00-00 · Email: hello@vektor.agency · Telegram: @vektor_agency',
     ],
   },
 ]
@@ -106,13 +106,13 @@ export default function Offer() {
             Vektor<span className="logo__dot">.</span>
           </a>
           <a href="#top" className="btn btn--ghost legal__back">
-            ← Back to site
+            ← На сайт
           </a>
         </div>
       </header>
       <main className="container legal__body">
-        <h1>Public Offer Agreement</h1>
-        <p className="legal__updated">Last updated: July 22, 2026</p>
+        <h1>Публічна оферта</h1>
+        <p className="legal__updated">Оновлено: 22 липня 2026</p>
         {sections.map((s) => (
           <section key={s.title}>
             <h2>{s.title}</h2>
@@ -124,7 +124,7 @@ export default function Offer() {
       </main>
       <footer className="footer">
         <div className="container footer__inner">
-          <p>© {new Date().getFullYear()} Vektor Agency. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Vektor Agency. Всі права захищені.</p>
         </div>
       </footer>
     </div>

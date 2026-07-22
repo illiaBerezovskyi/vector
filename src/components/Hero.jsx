@@ -2,34 +2,34 @@ export default function Hero() {
   return (
     <section className="hero" id="top">
       <div className="container hero__inner">
-        <div className="hero__badge">CRM · Ads · AI · Analytics</div>
+        <div className="hero__badge">CRM · Реклама · AI · Аналітика</div>
         <h1>
-          Sales you can <span className="accent">measure</span>
+          Продажі, які можна <span className="accent">виміряти</span>
         </h1>
         <p className="hero__sub">
-          We build a system of CRM, advertising, AI tools and reporting where
-          every lead is tracked and every decision is backed by numbers.
+          Будуємо систему з CRM, реклами, AI-інструментів та звітності, де
+          кожен лід відстежується, а кожне рішення спирається на цифри.
         </p>
         <div className="hero__actions">
           <a href="#contacts" className="btn btn--primary btn--lg">
-            Work with us <span aria-hidden>→</span>
+            Замовити послугу <span aria-hidden>→</span>
           </a>
           <a href="#calculator" className="btn btn--ghost btn--lg">
-            Calculate the impact
+            Порахувати ефект
           </a>
         </div>
         <div className="hero__stats">
           <div className="stat">
             <div className="stat__num">30+</div>
-            <div className="stat__label">systems delivered</div>
+            <div className="stat__label">впроваджених систем</div>
           </div>
           <div className="stat">
             <div className="stat__num">×2.4</div>
-            <div className="stat__label">average conversion growth</div>
+            <div className="stat__label">середнє зростання конверсії</div>
           </div>
           <div className="stat">
-            <div className="stat__num">14 days</div>
-            <div className="stat__label">to first results</div>
+            <div className="stat__num">14 днів</div>
+            <div className="stat__label">до перших результатів</div>
           </div>
         </div>
       </div>

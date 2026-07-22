@@ -1,23 +1,23 @@
 const items = [
   {
     tag: 'CRM',
-    title: 'Lead management',
-    text: 'Every request is captured, assigned and taken to a closed deal — nothing gets lost.',
+    title: 'Управління лідами',
+    text: 'Кожна заявка фіксується, розподіляється й доводиться до угоди — нічого не губиться.',
   },
   {
     tag: 'ADS',
-    title: 'Traffic',
-    text: 'Ad campaigns with UTM tracking and a clear cost per lead for every channel.',
+    title: 'Трафік',
+    text: 'Рекламні кампанії з UTM-розміткою та зрозумілою вартістю ліда по кожному каналу.',
   },
   {
     tag: 'AI',
-    title: 'Automation',
-    text: 'AI assistants and workflows that take routine off your managers and reply to clients 24/7.',
+    title: 'Автоматизація',
+    text: 'AI-асистенти та сценарії, які знімають рутину з менеджерів і відповідають клієнтам 24/7.',
   },
   {
     tag: 'BI',
-    title: 'Analytics',
-    text: 'Dashboards with the key metrics: from ad spend to revenue per manager.',
+    title: 'Аналітика',
+    text: 'Дашборди з ключовими метриками: від витрат на рекламу до виручки по менеджерах.',
   },
 ]
 
@@ -27,10 +27,10 @@ export default function SystemGrid() {
       <div className="container">
         <div className="section-head">
           <span className="section-num">01</span>
-          <h2>One system instead of scattered tools</h2>
+          <h2>Одна система замість розрізнених інструментів</h2>
           <p>
-            CRM, ads, AI and analytics stay in sync — data flows between
-            channels without manual copy-pasting.
+            CRM, реклама, AI та аналітика синхронізовані між собою — дані
+            течуть між каналами без ручного перенесення.
           </p>
         </div>
         <div className="system__grid">

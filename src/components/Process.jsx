@@ -1,23 +1,23 @@
 const steps = [
   {
     num: '1',
-    title: 'Brief & goals',
-    text: 'We hop on a call, capture your current numbers and set goals for the next 3 months.',
+    title: 'Бриф і цілі',
+    text: 'Зідзвонюємось, фіксуємо поточні показники та ставимо цілі на 3 місяці.',
   },
   {
     num: '2',
-    title: 'Audit',
-    text: 'We dissect your funnel, ads and processes to find where leads and money leak.',
+    title: 'Аудит',
+    text: 'Розбираємо воронку, рекламу та процеси. Знаходимо, де губляться ліди та гроші.',
   },
   {
     num: '3',
-    title: 'Setup',
-    text: 'We implement the CRM, launch the ads, plug in AI and build the dashboards.',
+    title: 'Налаштування',
+    text: 'Впроваджуємо CRM, запускаємо рекламу, підключаємо AI та збираємо дашборди.',
   },
   {
     num: '4',
-    title: 'Handover & support',
-    text: 'We train your team, hand over the docs and stay around for support.',
+    title: 'Передача та підтримка',
+    text: 'Навчаємо команду, передаємо документацію та залишаємось на підтримці.',
   },
 ]
 
@@ -27,8 +27,8 @@ export default function Process() {
       <div className="container">
         <div className="section-head">
           <span className="section-num">03</span>
-          <h2>How we work</h2>
-          <p>Fully remote, with documented results at every stage.</p>
+          <h2>Як проходить робота</h2>
+          <p>Повністю онлайн, з фіксацією результатів на кожному етапі.</p>
         </div>
         <div className="process__grid">
           {steps.map((s) => (

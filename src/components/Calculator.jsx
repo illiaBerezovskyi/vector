@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const fmt = new Intl.NumberFormat('en-US')
+const fmt = new Intl.NumberFormat('uk-UA')
 
 export default function Calculator() {
   const [leads, setLeads] = useState(200)
@@ -18,17 +18,17 @@ export default function Calculator() {
       <div className="container">
         <div className="section-head">
           <span className="section-num">04</span>
-          <h2>How much you lose without a system</h2>
+          <h2>Скільки ви втрачаєте без системи</h2>
           <p>
-            Drag the sliders to match your numbers. The model shows the effect
-            of a +8 pp conversion lift — the average result across our clients.
+            Посуньте повзунки під свої цифри. Модель показує ефект від зростання
+            конверсії на +8 в.п. — середній результат наших клієнтів.
           </p>
         </div>
         <div className="calc__panel">
           <div className="calc__controls">
             <label className="calc__field">
               <div className="calc__label">
-                <span>Leads per month</span>
+                <span>Лідів на місяць</span>
                 <strong>{fmt.format(leads)}</strong>
               </div>
               <input
@@ -42,7 +42,7 @@ export default function Calculator() {
             </label>
             <label className="calc__field">
               <div className="calc__label">
-                <span>Lead-to-deal conversion</span>
+                <span>Конверсія в угоду</span>
                 <strong>{conversion}%</strong>
               </div>
               <input
@@ -55,7 +55,7 @@ export default function Calculator() {
             </label>
             <label className="calc__field">
               <div className="calc__label">
-                <span>Average deal size</span>
+                <span>Середній чек</span>
                 <strong>${fmt.format(check)}</strong>
               </div>
               <input
@@ -70,27 +70,27 @@ export default function Calculator() {
           </div>
           <div className="calc__results">
             <div className="calc__row">
-              <span>Deals now</span>
+              <span>Угод зараз</span>
               <strong>{fmt.format(deals)}</strong>
             </div>
             <div className="calc__row">
-              <span>Revenue now</span>
+              <span>Виручка зараз</span>
               <strong>${fmt.format(revenue)}</strong>
             </div>
             <div className="calc__divider" />
             <div className="calc__row calc__row--accent">
-              <span>Deals with the system</span>
+              <span>Угод із системою</span>
               <strong>{fmt.format(improvedDeals)}</strong>
             </div>
             <div className="calc__row calc__row--accent">
-              <span>Revenue with the system</span>
+              <span>Виручка із системою</span>
               <strong>${fmt.format(improvedRevenue)}</strong>
             </div>
             <div className="calc__delta">
-              +${fmt.format(delta)} <span>per month</span>
+              +${fmt.format(delta)} <span>на місяць</span>
             </div>
             <a href="#contacts" className="btn btn--primary btn--block">
-              I want this result <span aria-hidden>→</span>
+              Хочу такий результат <span aria-hidden>→</span>
             </a>
           </div>
         </div>
