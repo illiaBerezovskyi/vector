@@ -1,20 +1,20 @@
 const contacts = [
   {
     label: 'Telegram',
-    value: '@vektor_agency',
-    href: 'https://t.me/vektor_agency',
+    value: '@roma00q',
+    href: 'https://t.me/roma00q',
     note: 'Відповідаємо протягом години',
   },
   {
     label: 'Телефон',
-    value: '+380 (00) 000-00-00',
-    href: 'tel:+380000000000',
+    value: '+38 (091) 481-17-91',
+    href: 'tel:+380914811791',
     note: 'Пн–Пт, 10:00–19:00',
   },
   {
     label: 'Email',
-    value: 'hello@vektor.agency',
-    href: 'mailto:hello@vektor.agency',
+    value: 'guteroma555@gmail.com',
+    href: 'mailto:guteroma555@gmail.com',
     note: 'Для брифів і документів',
   },
 ]

@@ -6,6 +6,7 @@ import Services from './components/Services.jsx'
 import Process from './components/Process.jsx'
 import Calculator from './components/Calculator.jsx'
 import Contacts from './components/Contacts.jsx'
+import Requisites from './components/Requisites.jsx'
 import Footer from './components/Footer.jsx'
 import Offer from './components/Offer.jsx'
 
@@ -32,6 +33,7 @@ export default function App() {
         <Process />
         <Calculator />
         <Contacts />
+        <Requisites />
       </main>
       <Footer />
     </>

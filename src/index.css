@@ -562,6 +562,59 @@ input[type='range']::-moz-range-thumb {
   color: var(--text);
 }
 
+/* ---------- Requisites ---------- */
+.req__panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 12px 32px;
+  box-shadow: var(--shadow);
+  max-width: 760px;
+}
+
+.req__row {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.req__row:last-child {
+  border-bottom: none;
+}
+
+.req__label {
+  flex: 0 0 180px;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.req__value {
+  flex: 1;
+  font-weight: 600;
+  font-size: 15px;
+  word-break: break-all;
+}
+
+.req__copy {
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+  border: none;
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.req__copy:hover {
+  background: #e5dbfc;
+}
+
 /* ---------- Legal pages ---------- */
 .legal__body {
   max-width: 760px;
@@ -664,6 +717,15 @@ input[type='range']::-moz-range-thumb {
   .process__grid,
   .contacts__grid {
     grid-template-columns: 1fr;
+  }
+
+  .req__panel {
+    padding: 8px 20px;
+  }
+
+  .req__label {
+    flex-basis: 100%;
+    margin-bottom: -6px;
   }
 
   section {
