@@ -16,15 +16,15 @@ export default function Calculator() {
   return (
     <section className="calc" id="calculator">
       <div className="container">
-        <div className="section-head">
-          <span className="section-num">04</span>
+        <div className="section-head reveal">
+          <span className="section-num">05</span>
           <h2>Скільки ви втрачаєте без системи</h2>
           <p>
             Посуньте повзунки під свої цифри. Модель показує ефект від зростання
             конверсії на +8 в.п. — середній результат наших клієнтів.
           </p>
         </div>
-        <div className="calc__panel">
+        <div className="calc__panel reveal">
           <div className="calc__controls">
             <label className="calc__field">
               <div className="calc__label">

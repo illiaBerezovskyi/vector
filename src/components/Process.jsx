@@ -16,7 +16,7 @@ const steps = [
   },
   {
     num: '4',
-    title: 'Передача та підтримка',
+    title: 'Передача результатів',
     text: 'Навчаємо команду, передаємо документацію та залишаємось на підтримці.',
   },
 ]
@@ -25,12 +25,15 @@ export default function Process() {
   return (
     <section className="process" id="process">
       <div className="container">
-        <div className="section-head">
-          <span className="section-num">03</span>
+        <div className="section-head reveal">
+          <span className="section-num">04</span>
           <h2>Як проходить робота</h2>
-          <p>Повністю онлайн, з фіксацією результатів на кожному етапі.</p>
+          <p>
+            Працюємо онлайн. Усі результати фіксуємо у зрозумілому форматі:
+            структура, таблиці, налаштування, інструкції, записи зустрічей.
+          </p>
         </div>
-        <div className="process__grid">
+        <div className="process__grid stagger reveal">
           {steps.map((s) => (
             <div key={s.num} className="process__step">
               <div className="process__circle">{s.num}</div>

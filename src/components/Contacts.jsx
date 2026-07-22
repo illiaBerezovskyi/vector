@@ -3,13 +3,13 @@ const contacts = [
     label: 'Telegram',
     value: '@roma00q',
     href: 'https://t.me/roma00q',
-    note: 'Відповідаємо протягом години',
+    note: 'Найшвидший спосіб звʼязку',
   },
   {
     label: 'Телефон',
     value: '+38 (091) 481-17-91',
     href: 'tel:+380914811791',
-    note: 'Пн–Пт, 10:00–19:00',
+    note: 'Дзвінки та Viber',
   },
   {
     label: 'Email',
@@ -23,12 +23,15 @@ export default function Contacts() {
   return (
     <section className="contacts" id="contacts">
       <div className="container">
-        <div className="section-head">
-          <span className="section-num">05</span>
+        <div className="section-head reveal">
+          <span className="section-num">07</span>
           <h2>Контакти</h2>
-          <p>Напишіть нам — повернемось із питаннями по брифу та пропозицією по строках.</p>
+          <p>
+            Напишіть, що саме хочете впорядкувати: CRM, рекламу, AI чи
+            аналітику — повернемось із питаннями по брифу та планом робіт.
+          </p>
         </div>
-        <div className="contacts__grid">
+        <div className="contacts__grid stagger reveal">
           {contacts.map((c) => (
             <a key={c.label} href={c.href} className="contact-card">
               <div className="contact-card__label">{c.label}</div>

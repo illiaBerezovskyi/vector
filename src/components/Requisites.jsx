@@ -1,14 +1,30 @@
 import { useState } from 'react'
 
+const terms = [
+  {
+    title: 'Оплата',
+    text: 'Рахунок після узгодження обсягу робіт. Оплата у гривні (UAH) банківським переказом.',
+  },
+  {
+    title: 'Надання послуг',
+    text: 'Цифрові послуги надаються дистанційно після оплати.',
+  },
+  {
+    title: 'Повернення',
+    text: 'Розглядається індивідуально з урахуванням фактично виконаних робіт.',
+  },
+]
+
 const rows = [
-  { label: 'Одержувач', value: 'ФОП МЕЛЬНИЧУК РОМАН ПЕТРОВИЧ' },
+  { label: 'Одержувач', value: 'ФОП МЕЛЬНИЧУК РОМАН ПЕТРОВИЧ', copy: true },
   { label: 'ЄДРПОУ / РНОКПП', value: '3937013891', copy: true },
   { label: 'IBAN', value: 'UA273077700000026004011255941', copy: true },
-  { label: 'Банк', value: 'АТ «А-БАНК»' },
+  { label: 'Банк', value: 'АТ «А-БАНК»', copy: true },
   { label: 'Валюта', value: 'UAH' },
   {
     label: 'Адреса',
     value: 'Україна, 10001, Житомирська обл., м. Житомир, вул. Огієнка Івана, буд. 14, кв. 1',
+    copy: true,
   },
 ]
 
@@ -44,12 +60,20 @@ export default function Requisites() {
   return (
     <section className="req" id="requisites">
       <div className="container">
-        <div className="section-head">
-          <span className="section-num">06</span>
-          <h2>Реквізити</h2>
+        <div className="section-head reveal">
+          <span className="section-num">08</span>
+          <h2>Оплата і реквізити</h2>
           <p>Дані для оплати банківським переказом.</p>
         </div>
-        <div className="req__panel">
+        <div className="req__terms stagger reveal">
+          {terms.map((t) => (
+            <div key={t.title} className="req__term">
+              <h3>{t.title}</h3>
+              <p>{t.text}</p>
+            </div>
+          ))}
+        </div>
+        <div className="req__panel reveal">
           {rows.map((r) => (
             <div key={r.label} className="req__row">
               <span className="req__label">{r.label}</span>
