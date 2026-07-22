@@ -10,6 +10,7 @@ export default function Footer() {
           <a href="#services">Services</a>
           <a href="#process">Process</a>
           <a href="#contacts">Contacts</a>
+          <a href="#/offer">Public Offer</a>
         </nav>
       </div>
     </footer>
