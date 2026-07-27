@@ -1,20 +1,20 @@
 const contacts = [
   {
     label: 'Telegram',
-    value: '@roma00q',
-    href: 'https://t.me/roma00q',
+    value: '@dzhugan_d',
+    href: 'https://t.me/dzhugan_d',
     note: 'Найшвидший спосіб звʼязку',
   },
   {
     label: 'Телефон',
-    value: '+38 (091) 481-17-91',
-    href: 'tel:+380914811791',
+    value: '+38 (050) 865-71-20',
+    href: 'tel:+380508657120',
     note: 'Дзвінки та Viber',
   },
   {
     label: 'Email',
-    value: 'guteroma555@gmail.com',
-    href: 'mailto:guteroma555@gmail.com',
+    value: 'dzugan830@gmail.com',
+    href: 'mailto:dzugan830@gmail.com',
     note: 'Для брифів і документів',
   },
 ]

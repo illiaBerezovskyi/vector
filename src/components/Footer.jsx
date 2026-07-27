@@ -20,7 +20,7 @@ export default function Footer() {
         </nav>
       </div>
       <div className="container footer__bottom">
-        <p>© {new Date().getFullYear()} ФОП Мельничук Роман Петрович. Всі права захищені.</p>
+        <p>© {new Date().getFullYear()} ФОП Джуган Денис Сергійович. Всі права захищені.</p>
       </div>
     </footer>
   )
